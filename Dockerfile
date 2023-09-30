@@ -16,7 +16,7 @@ COPY --from=build /project/target/app.war /app/app.war
 
 ENV PROFILE=dev
 
-WORKDIR /app
+WORKDIR /stg
 
 
 EXPOSE 8080
